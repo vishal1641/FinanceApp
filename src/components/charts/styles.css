@@ -1,0 +1,15 @@
+.charts-wrapper {
+  /* width: 100%; */
+  padding: 2rem;
+  box-shadow: var(--shadow-color);
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .charts-wrapper {
+    padding: 1rem;
+  }
+}
